@@ -1,0 +1,11 @@
+{
+    "name": "hexlet/code",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Evgenii Afonchenko",
+            "email": "e.p.afonchenko@gmail.com"
+        }
+    ],
+    "require": {}
+}
