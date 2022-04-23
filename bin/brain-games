@@ -1,3 +1,16 @@
 #!/usr/bin/env php
 
-echo 'Welcome to the Brain Games!';
+<?php
+
+use function Brain\Games\Cli\greet;
+
+$autoloadLocal = __DIR__ . '/../vendor/autoload.php';
+$autoloadGlobal = __DIR__ . '/../../../autoload.php';
+
+if (file_exists($autoloadGlobal)) {
+    require_once $autoloadGlobal;
+} else {
+    require_once $autoloadLocal;
+}
+
+greet();
