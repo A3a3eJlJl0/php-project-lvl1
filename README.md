@@ -4,3 +4,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 
 ![makefile workflow](https://github.com/A3a3eJlJl0/php-project-lvl1/actions/workflows/makefile.yml/badge.svg)
+
+#### Usage Example:
+
+[![asciicast](https://asciinema.org/a/Lbt62O1B0kkK3HzoBhflSr6Mn.svg)](https://asciinema.org/a/Lbt62O1B0kkK3HzoBhflSr6Mn)
