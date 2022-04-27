@@ -12,17 +12,18 @@
     "bin": [
         "bin/brain-games",
         "bin/brain-even",
-        "bin/brain-calc"
+        "bin/brain-calc",
+        "bin/brain-gcd"
     ],
     "autoload": {
         "psr-4": {
             "Brain\\Games\\": "src"
         },
         "files": [
-            "src/Cli.php",
             "src/Engine.php",
             "src/games/EvenGame.php",
-            "src/games/CalcGame.php"
+            "src/games/CalcGame.php",
+            "src/games/GcdGame.php"
         ]
     },
     "require": {
