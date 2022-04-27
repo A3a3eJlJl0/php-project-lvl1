@@ -2,7 +2,8 @@
 
 <?php
 
-use function Brain\Games\Cli\greet;
+use function cli\line;
+use function cli\prompt;
 
 $autoloadLocal = __DIR__ . '/../vendor/autoload.php';
 $autoloadGlobal = __DIR__ . '/../../../autoload.php';
@@ -13,4 +14,6 @@ if (file_exists($autoloadGlobal)) {
     require_once $autoloadLocal;
 }
 
-greet();
+line("Welcome to the Brain Games!");
+$name = prompt("May I have your name?");
+line("Hello, {$name}!");

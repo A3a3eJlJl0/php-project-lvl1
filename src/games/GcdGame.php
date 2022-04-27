@@ -21,7 +21,7 @@ function startGcdGame()
         $correctAnswer = findGcd($a, $b);
         $userAnswer = ask("$a $b");
 
-        if (!check($userAnswer, $correctAnswer, $name)) {
+        if (!check($userAnswer, (string)$correctAnswer, $name)) {
             return;
         }
         $counter--;

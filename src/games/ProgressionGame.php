@@ -20,12 +20,13 @@ function startProgressionGame()
         $start = rand(0, 100);
         $diff = rand(1, 20);
         $progression = "";
+        $correctAnswer = "";
 
         for ($i = 0; $i < $length; $i++) {
             $el = $start + $diff * $i;
             if ($i == ceil($length / 2 - 1)) {
-                $correctAnswer = $el;
-                $el = '...';
+                $correctAnswer = (string)$el;
+                $el = '..';
             }
             $progression .= "$el ";
         }

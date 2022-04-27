@@ -37,7 +37,7 @@ function startCalcGame()
 
         $userAnswer = ask("$a $operation $b");
 
-        if (!check($userAnswer, $correctAnswer, $name)) {
+        if (!check($userAnswer, (string)$correctAnswer, $name)) {
             return;
         }
         $counter--;

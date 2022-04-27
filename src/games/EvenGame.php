@@ -17,8 +17,8 @@ function startEvenGame()
 
     while ($counter > 0) {
         $number = rand(1, 1000);
-        $correctAnswer = $number % 2 ? 'no' : 'yes';
-        $userAnswer = ask($number);
+        $correctAnswer = boolval($number % 2) ? 'no' : 'yes';
+        $userAnswer = ask("$number");
 
         if (!check($userAnswer, $correctAnswer, $name)) {
             return;

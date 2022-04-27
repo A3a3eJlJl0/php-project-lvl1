@@ -19,12 +19,12 @@ function ask(string $question): string
     return prompt('Your answer: ');
 }
 
-function printTitle($title)
+function printTitle(string $title)
 {
     line($title);
 }
 
-function check($answer, $expected, $name): bool
+function check(string $answer, string $expected, string $name): bool
 {
     if ($answer == $expected) {
         line('Correct!');
