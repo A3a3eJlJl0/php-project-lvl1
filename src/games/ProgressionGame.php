@@ -39,4 +39,3 @@ function startProgressionGame()
     }
     line("Congratulations, {$name}!");
 }
-
