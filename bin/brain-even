@@ -2,7 +2,7 @@
 
 <?php
 
-use function Brain\Games\EvenGame\startEvenGame;
+use function Brain\Games\Games\EvenGame\startEvenGame;
 
 $autoloadLocal = __DIR__ . '/../vendor/autoload.php';
 $autoloadGlobal = __DIR__ . '/../../../autoload.php';
